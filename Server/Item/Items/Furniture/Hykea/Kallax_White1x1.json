@@ -1,0 +1,103 @@
+{
+  "TranslationProperties": {
+    "Name": "hykea.Kallax_White1x1.name"
+  },
+  "Categories": [
+    "Furniture.Shelves"
+  ],
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Plant_Petals_White",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Storage"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Hykea/Kallax_1_1.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Weight": 1,
+        "Texture": "Blocks/Hykea/kallax_1_1_white.png"
+      }
+    ],
+    "VariantRotation": "NESW",
+    "Interactions": {
+      "Primary": "Break_Container",
+      "Use": "Open_Container"
+    },
+    "Flags": {
+      "IsUsable": true
+    },
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "ParticleColor": "#ffffff",
+    "State": {
+      "Id": "container",
+      "Capacity": 4
+    },
+    "Group": "Kalax1x1",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "ItemId": "Ingredient_Stick"
+      }
+    },
+    "BlockBreakingDecalId": "Breaking_Decals_Wood"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      22.5,
+      45.0,
+      22.5
+    ],
+    "Translation": [
+      -1.0,
+      -14.0
+    ]
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Icon": "Icons/ItemsGenerated/Kallax_White1x1.png",
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Hykea"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Set": "Kalax1x1"
+}
