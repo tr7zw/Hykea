@@ -1,6 +1,8 @@
 {
   "Blocks": [
     "Hykea_Kallax_Lightwood1x1",
-    "Hykea_Kallax_Lightwood1x1_Cat"
+    "Hykea_Kallax_Lightwood1x1_Cat",
+    "Hykea_Kallax_Lightwood1x1_Door",
+    "Hykea_Kallax_Lightwood1x1_Drawer"
   ]
 }

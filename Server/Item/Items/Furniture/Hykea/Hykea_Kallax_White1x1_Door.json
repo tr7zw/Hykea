@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "hykea.Kallax_Lightwood1x1.name"
+    "Name": "hykea.Kallax_White1x1.name"
   },
   "Categories": [
     "Furniture.Shelves"
@@ -9,11 +9,11 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Hykea/Kallax_1_1_Box.blockymodel",
+    "CustomModel": "Blocks/Hykea/Kallax_1_1_Box_Door.blockymodel",
     "CustomModelTexture": [
       {
         "Weight": 0,
-        "Texture": "Blocks/Hykea/kallax_1_1_lightwood_cat.png"
+        "Texture": "Blocks/Hykea/kallax_1_1_white_box.png"
       }
     ],
     "VariantRotation": "NESW",
@@ -33,7 +33,7 @@
         }
       ]
     },
-    "ParticleColor": "#fbe9a8",
+    "ParticleColor": "#ffffff",
     "State": {
       "Id": "container",
       "Capacity": 4
@@ -68,7 +68,7 @@
       "Id": "Charcoal"
     }
   ],
-  "Icon": "Icons/ItemsGenerated/Kallax_Lightwood1x1_Cat.png",
+  "Icon": "Icons/ItemsGenerated/Kallax_White1x1_Cat.png",
   "Tags": {
     "Type": [
       "Furniture"

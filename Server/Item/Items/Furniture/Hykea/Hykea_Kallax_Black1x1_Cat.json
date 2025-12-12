@@ -33,7 +33,7 @@
         }
       ]
     },
-    "ParticleColor": "#ffffff",
+    "ParticleColor": "#2b2b2b",
     "State": {
       "Id": "container",
       "Capacity": 4
