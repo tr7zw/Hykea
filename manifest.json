@@ -1,5 +1,12 @@
 {
   "Group": "tr7zw",
-  "Name": "HYKEA"
+  "Name": "HYKEA",
+  "Version": "0.0.2",
+  "Description": "Add some furniture from far away lands.",
+  "Authors": [
+    {
+      "Name": "tr7zw"
+    }
+  ],
+  "Website": "https://tr7zw.dev/"
 }
-
