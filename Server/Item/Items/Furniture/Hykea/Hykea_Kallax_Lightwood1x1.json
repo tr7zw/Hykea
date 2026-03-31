@@ -35,7 +35,6 @@
     ],
     "VariantRotation": "NESW",
     "Interactions": {
-      "Primary": "Break_Container",
       "Use": "Open_Container"
     },
     "Flags": {
@@ -51,9 +50,12 @@
       ]
     },
     "ParticleColor": "#fbe9a8",
-    "State": {
-      "Id": "container",
-      "Capacity": 4
+    "BlockEntity": {
+      "Components": {
+        "ItemContainerBlock": {
+          "Capacity": 4
+        }
+      }
     },
     "Group": "Kalax1x1",
     "Gathering": {
